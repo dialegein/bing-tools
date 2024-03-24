@@ -24,9 +24,9 @@ function App() {
 
   return (
     <div className="p-5">
-      <div className=" relative">
+      <div className="relative">
         <Textarea
-          className=" h-[30vh]"
+          className=" h-[30vh] text-base"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
         />
